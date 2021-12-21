@@ -288,9 +288,13 @@ body {
   border: 2px solid var(--accent-color);
 }
 
-.modal-checkbox:checked + .checkbox-text span,
-.modal-checkbox:hover + .checkbox-text span,
-.modal-checkbox:focus + .checkbox-text span {
+.modal-checkbox:checked + .checkbox-text span {
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.modal-checkbox:focus + .checkbox-text span,
+.modal-checkbox:hover + .checkbox-text span {
   border: 2px solid var(--accent-color);
 }
 
@@ -304,6 +308,42 @@ body {
 
 .modal-button:hover, .modal-button:focus {
   background-color: #188ce8;
+}
+
+.input-field {
+  padding: 15px;
+  width: 358px;
+  margin-right: 12px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--footer-text-color);
+  transition: border var(--transition-hover), color var(--transition-hover);
+}
+
+.input-field:focus, .input-field:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.input-field::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--footer-text-color);
+  transition: color var(--transition-hover);
+}
+
+.button-subscription {
+  padding: 10px 29px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-form {
+  margin-left: 10px;
+}
+
+.mail-form {
+  display: flex;
 }
 
 .input-field {
