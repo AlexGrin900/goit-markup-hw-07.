@@ -9,8 +9,3 @@
     margin-left: var(--card-set-margin);
   }
 }
-.team-card-set {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: calc(-1 * var(--card-set-margin));
-}
