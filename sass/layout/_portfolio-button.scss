@@ -20,9 +20,9 @@
   transition: color var(--transition-hover),
     background-color var(--transition-hover),
     border-color var(--transition-hover), box-shadow var(--transition-hover);
-  :hover,
-  :focus,
-  :active {
+  &:hover,
+  &:focus,
+  &:active {
     color: var(--white-color);
     background: var(--accent-color);
     box-shadow: var(--portfolio-button-shadow);
