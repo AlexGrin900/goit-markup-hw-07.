@@ -10,8 +10,8 @@
   border: none;
   transition: background-color var(--transition-hover);
 
-  :focus,
-  :hover {
+  &:focus,
+  &:hover {
     background-color: #188ce8;
   }
 }
