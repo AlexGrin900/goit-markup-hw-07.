@@ -23,10 +23,10 @@
     padding-bottom: 32px;
     display: block;
     transition: color var(--transition-hover);
-  }
-  &:focus,
-  &:hover {
-    color: var(--accent-color);
+    &:focus,
+    &:hover {
+      color: var(--accent-color);
+    }
   }
 }
 .nav-section {
