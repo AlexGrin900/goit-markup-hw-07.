@@ -467,6 +467,37 @@ body {
   color: var(--white-color);
 }
 
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo--of-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo--of-footer {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.logo__s {
+  color: var(--title-text-color);
+}
+
+.logo__fs {
+  color: var(--white-color);
+}
+
+.logo--of-footer {
+  margin-bottom: 20px;
+  display: block;
+}
+
 .header {
   border-bottom: 1px solid var(--border-color);
 }
@@ -515,24 +546,6 @@ body {
 
 .link-nav:not(:last-child) {
   margin-right: 50px;
-}
-
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.logo-s {
-  color: var(--title-text-color);
-}
-
-.logo-fs {
-  color: var(--white-color);
 }
 
 /* Site-nav */
@@ -850,20 +863,6 @@ body {
 
 .footer-item:last-child {
   margin-left: auto;
-}
-
-.footer-logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-  margin-bottom: 20px;
-  display: block;
-}
-
-.logo-fs {
-  color: var(--white-color);
 }
 
 .social-item + .social-item {
