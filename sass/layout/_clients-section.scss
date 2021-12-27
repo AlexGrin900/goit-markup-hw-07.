@@ -17,12 +17,12 @@
   border-radius: 4px;
   transition: border var(--transition-hover), color var(--accent-color);
   color: var(--primary-icon-color);
-  &:focus,
-  &:hover {
+  &:hover,
+  &:focus {
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
   }
-  &:focus .client-icon,
+  &:hover .client-icon,
   &:focus .client-icon {
     fill: var(--accent-color);
   }
