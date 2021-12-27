@@ -531,7 +531,7 @@ body {
   transition: color var(--transition-hover);
 }
 
-.site-nav:focus, .site-nav:hover {
+.site-nav .link:focus, .site-nav .link:hover {
   color: var(--accent-color);
 }
 
@@ -807,12 +807,12 @@ body {
   color: var(--primary-icon-color);
 }
 
-.client-link:focus, .client-link:hover {
+.client-link:hover, .client-link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
 
-.client-link:focus .client-icon,
+.client-link:hover .client-icon,
 .client-link:focus .client-icon {
   fill: var(--accent-color);
 }
